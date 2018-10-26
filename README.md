@@ -21,7 +21,7 @@ Then in your project’s app/build.gradle add the following to your project's de
 Compilation
 -----------
 
-The source is a packaging of [TarsosDSP](https://github.com/JorenSix/TarsosDSP) with binaries for arm, arm64 and x86-64 from [FFmpeg-Audio-Android](https://github.com/koendv/FFmpeg-Audio-Android) and [RubberBandJNI](https://github.com/JorenSix/RubberBandJNI) with  binaries for arm, arm64 and x86-64 from (RubberBand-Android)[https://github.com/koendv/rubberband]. Applied patches are in the patches/ directory. 
+The source is a packaging of [TarsosDSP](https://github.com/JorenSix/TarsosDSP) and [RubberBandJNI](https://github.com/JorenSix/RubberBandJNI) with binaries for arm, arm64 and x86-64 from [FFmpeg-Audio-Android](https://github.com/koendv/FFmpeg-Audio-Android) and [RubberBand-Android](https://github.com/koendv/rubberband). Applied patches are in the patches/ directory. 
 
 Compiled with Android Studio 2.3.3. After compilation Android libraries are in app/build/outputs/aar/*.aar
 
