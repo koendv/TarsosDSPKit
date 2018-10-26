@@ -3,7 +3,7 @@ Just copy tarsosdspkit.aar to the libs directory of your app source tree.
 
 Downloads
 ---------
-Pre-compiled .aar for Android: [TarsosDSPKit-release.aar](https://raw.githubusercontent.com/koendv/TarsosDSPKit/blob/master/binaries/TarsosDSPKit-release.aar)
+Pre-compiled .aar for Android: [TarsosDSPKit-release.aar](https://raw.githubusercontent.com/koendv/TarsosDSPKit/blob/master/binaries/TarsosDSPKit-release.aar). There is also a 'debug' version, just in case: [TarsosDSPKit-debug.aar](https://raw.githubusercontent.com/koendv/TarsosDSPKit/blob/master/binaries/TarsosDSPKit-debug.aar). 
 
 This library includes TarsosDSP and RubberBandJNI Java source, and executeables and shared libraries for 32-bit Arm, 64-bit Arm and 64-bit Intel.
 
@@ -12,11 +12,11 @@ Usage
 Download TarsosDSPKit-release.aar. Copy to app/libs/tarsosdspkit.aar . 
 Then in your project’s app/build.gradle add the following to your project's dependencies:
 
-dependencies {
-    ... 
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation fileTree(dir: 'libs', include: ['*.aar'])
-}
+    dependencies {
+        ... 
+        implementation fileTree(dir: 'libs', include: ['*.jar'])
+        implementation fileTree(dir: 'libs', include: ['*.aar'])
+    }
 
 Compilation
 -----------
