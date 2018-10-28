@@ -11,7 +11,7 @@ This library includes TarsosDSP and RubberBandJNI Java source, and executeables 
 
 Usage
 -----
-Download TarsosDSPKit-release.aar. Copy to your project as app/libs/tarsosdspkit.aar . 
+Download TarsosDSPKit-release.aar. Copy to your project as app/libs/TarsosDSPKit-release.aar 
 Then in your project’s app/build.gradle add the following to your project's dependencies:
 
     dependencies {
